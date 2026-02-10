@@ -155,3 +155,771 @@
 2026-02-11 00:21:24.107 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-02-11 00:21:24.111 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2026-02-11 00:21:24.125 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-11 00:22:15.624 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-11 00:22:15.671 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Starting UserOrderManagementApplication using Java 21.0.10 with PID 12460 (C:\Users\PC\Downloads\v2\usermanagement\target\classes started by PC in C:\Users\PC\Downloads\v2\usermanagement)
+2026-02-11 00:22:15.671 [restartedMain] DEBUG c.p.usermanagement.UserOrderManagementApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-11 00:22:15.671 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 00:22:15.749 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-11 00:22:15.749 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-11 00:22:17.394 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 00:22:17.470 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2026-02-11 00:22:18.435 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 00:22:18.437 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:22:18.450 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 00:22:18.452 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-11 00:22:18.531 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-11 00:22:18.532 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2779 ms
+2026-02-11 00:22:18.896 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 00:22:18.970 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-02-11 00:22:19.011 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 00:22:19.239 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 00:22:19.283 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-11 00:22:19.599 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56b0282f
+2026-02-11 00:22:19.599 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-11 00:22:19.647 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-11 00:22:21.037 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 00:22:21.201 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:22:21.742 [restartedMain] INFO  o.s.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-11 00:22:22.413 [restartedMain] DEBUG c.p.u.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-11 00:22:22.414 [restartedMain] DEBUG o.s.web.filter.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-02-11 00:22:22.998 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-11 00:22:23.279 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 30 mappings in 'requestMappingHandlerMapping'
+2026-02-11 00:22:23.469 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-02-11 00:22:23.648 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-02-11 00:22:23.782 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46819949, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@686ae189, org.springframework.security.web.context.SecurityContextHolderFilter@13c83b01, org.springframework.security.web.header.HeaderWriterFilter@a2cdcd0, org.springframework.web.filter.CorsFilter@5094c5d3, org.springframework.security.web.authentication.logout.LogoutFilter@5c34fc64, com.project.usermanagement.security.JwtAuthenticationFilter@72914270, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7499fc2c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d90f094, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41aeb293, org.springframework.security.web.session.SessionManagementFilter@1525a8e4, org.springframework.security.web.access.ExceptionTranslationFilter@1584f4df, org.springframework.security.web.access.intercept.AuthorizationFilter@29b0b04e]
+2026-02-11 00:22:23.974 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-11 00:22:24.032 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-11 00:22:24.485 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-11 00:22:24.561 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:22:24.589 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-11 00:22:24.600 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Started UserOrderManagementApplication in 9.528 seconds (process running for 10.071)
+2026-02-11 00:22:24.673 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Initializing database with default roles...
+2026-02-11 00:22:24.788 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:22:24.800 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_USER already exists
+2026-02-11 00:22:24.806 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:22:24.808 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_ADMIN already exists
+2026-02-11 00:22:24.809 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Database initialization complete!
+2026-02-11 00:24:43.757 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-11 00:24:43.763 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-11 00:24:43.764 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-02-11 00:24:43.764 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-02-11 00:24:43.766 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-02-11 00:24:43.770 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@47861272
+2026-02-11 00:24:43.771 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@30a55a23
+2026-02-11 00:24:43.773 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-11 00:24:43.774 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2026-02-11 00:24:43.812 [http-nio-8080-exec-2] DEBUG org.springframework.security.web.FilterChainProxy - Securing POST /api/auth/register
+2026-02-11 00:24:43.843 [http-nio-8080-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-02-11 00:24:43.858 [http-nio-8080-exec-2] DEBUG org.springframework.security.web.FilterChainProxy - Secured POST /api/auth/register
+2026-02-11 00:24:43.864 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/auth/register", parameters={}
+2026-02-11 00:24:43.872 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.project.usermanagement.controller.AuthController#register(RegisterRequest)
+2026-02-11 00:24:44.041 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [RegisterRequest(username=john_doe, email=john@example.com, password=password123, firstName=John, las (truncated)...]
+2026-02-11 00:24:44.145 [http-nio-8080-exec-2] INFO  c.project.usermanagement.controller.AuthController - Registration request received for username: john_doe
+2026-02-11 00:24:44.156 [http-nio-8080-exec-2] INFO  com.project.usermanagement.service.AuthService - Registering new user: john_doe
+2026-02-11 00:24:44.157 [http-nio-8080-exec-2] INFO  com.project.usermanagement.service.UserService - Creating new user with username: john_doe
+2026-02-11 00:24:44.161 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.username=? 
+    fetch
+        first ? rows only
+2026-02-11 00:24:44.170 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2026-02-11 00:24:44.310 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id,
+        r1_0.name 
+    from
+        roles r1_0 
+    where
+        r1_0.name=?
+2026-02-11 00:24:44.447 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        users
+        (created_at, created_by, email, first_name, is_active, last_name, password, phone, updated_at, updated_by, username) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-02-11 00:24:44.530 [http-nio-8080-exec-2] INFO  com.project.usermanagement.service.UserService - User created successfully with ID: 1
+2026-02-11 00:24:44.572 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        user_roles
+        (user_id, role_id) 
+    values
+        (?, ?)
+2026-02-11 00:24:44.679 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-11 00:24:44.687 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [ApiResponse(success=true, message=User registered successfully, data=UserResponse(id=1, username=joh (truncated)...]
+2026-02-11 00:24:44.720 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 201 CREATED
+2026-02-11 00:25:29.380 [http-nio-8080-exec-3] DEBUG org.springframework.security.web.FilterChainProxy - Securing POST /api/auth/login
+2026-02-11 00:25:29.383 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2026-02-11 00:25:29.384 [http-nio-8080-exec-3] DEBUG org.springframework.security.web.FilterChainProxy - Secured POST /api/auth/login
+2026-02-11 00:25:29.386 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/auth/login", parameters={}
+2026-02-11 00:25:29.389 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.project.usermanagement.controller.AuthController#login(LoginRequest)
+2026-02-11 00:25:29.399 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequest(username=john_doe, password=password123)]
+2026-02-11 00:25:29.405 [http-nio-8080-exec-3] INFO  c.project.usermanagement.controller.AuthController - Login request received for username: john_doe
+2026-02-11 00:25:29.407 [http-nio-8080-exec-3] INFO  com.project.usermanagement.service.AuthService - Attempting login for user: john_doe
+2026-02-11 00:25:29.530 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.is_active,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.phone,
+        u1_0.updated_at,
+        u1_0.updated_by,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2026-02-11 00:25:29.545 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-02-11 00:25:29.653 [http-nio-8080-exec-3] DEBUG o.s.s.authentication.dao.DaoAuthenticationProvider - Authenticated user
+2026-02-11 00:25:29.818 [http-nio-8080-exec-3] INFO  com.project.usermanagement.service.AuthService - User logged in successfully: john_doe
+2026-02-11 00:25:29.822 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-11 00:25:29.823 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [ApiResponse(success=true, message=Login successful, data=AuthResponse(accessToken=eyJhbGciOiJIUzUxMi (truncated)...]
+2026-02-11 00:25:29.827 [http-nio-8080-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2026-02-11 00:26:32.722 [http-nio-8080-exec-6] DEBUG org.springframework.security.web.FilterChainProxy - Securing POST /api/orders
+2026-02-11 00:26:32.808 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.is_active,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.phone,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name,
+        u1_0.updated_at,
+        u1_0.updated_by,
+        u1_0.username 
+    from
+        users u1_0 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        u1_0.id=?
+2026-02-11 00:26:32.817 [http-nio-8080-exec-6] DEBUG c.p.u.security.JwtAuthenticationFilter - Set authentication for user: john_doe
+2026-02-11 00:26:32.819 [http-nio-8080-exec-6] DEBUG org.springframework.security.web.FilterChainProxy - Secured POST /api/orders
+2026-02-11 00:26:32.820 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/orders", parameters={}
+2026-02-11 00:26:32.820 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.project.usermanagement.controller.OrderController#createOrder(CreateOrderRequest)
+2026-02-11 00:26:32.833 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrderRequest(totalAmount=99.99, deliveryAddress=123 Main St, City, notes=Please deliver betwee (truncated)...]
+2026-02-11 00:26:32.848 [http-nio-8080-exec-6] INFO  c.p.usermanagement.controller.OrderController - Create order request received
+2026-02-11 00:26:32.849 [http-nio-8080-exec-6] INFO  com.project.usermanagement.service.OrderService - Creating new order
+2026-02-11 00:26:32.850 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.is_active,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.phone,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name,
+        u1_0.updated_at,
+        u1_0.updated_by,
+        u1_0.username 
+    from
+        users u1_0 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        u1_0.id=?
+2026-02-11 00:26:32.867 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        orders
+        (created_at, created_by, delivery_address, notes, order_date, order_number, status, total_amount, updated_at, updated_by, user_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-02-11 00:26:32.878 [http-nio-8080-exec-6] INFO  com.project.usermanagement.service.OrderService - Order created successfully with number: ORD-792854-9E4762D5
+2026-02-11 00:26:32.883 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-11 00:26:32.886 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [ApiResponse(success=true, message=Order created successfully, data=OrderResponse(id=1, orderNumber=O (truncated)...]
+2026-02-11 00:26:32.897 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 201 CREATED
+2026-02-11 00:27:33.140 [http-nio-8080-exec-8] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/orders/my-orders
+2026-02-11 00:27:33.146 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.is_active,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.phone,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name,
+        u1_0.updated_at,
+        u1_0.updated_by,
+        u1_0.username 
+    from
+        users u1_0 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        u1_0.id=?
+2026-02-11 00:27:33.155 [http-nio-8080-exec-8] DEBUG c.p.u.security.JwtAuthenticationFilter - Set authentication for user: john_doe
+2026-02-11 00:27:33.158 [http-nio-8080-exec-8] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/orders/my-orders
+2026-02-11 00:27:33.158 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/orders/my-orders", parameters={}
+2026-02-11 00:27:33.160 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.project.usermanagement.controller.OrderController#getMyOrders(int, int, String, String)
+2026-02-11 00:27:33.179 [http-nio-8080-exec-8] DEBUG c.p.usermanagement.controller.OrderController - Get my orders request
+2026-02-11 00:27:33.182 [http-nio-8080-exec-8] DEBUG com.project.usermanagement.service.OrderService - Fetching orders for user ID: 1
+2026-02-11 00:27:33.203 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        o1_0.id,
+        o1_0.created_at,
+        o1_0.created_by,
+        o1_0.delivery_address,
+        o1_0.notes,
+        o1_0.order_date,
+        o1_0.order_number,
+        o1_0.status,
+        o1_0.total_amount,
+        o1_0.updated_at,
+        o1_0.updated_by,
+        o1_0.user_id 
+    from
+        orders o1_0 
+    left join
+        users u1_0 
+            on u1_0.id=o1_0.user_id 
+    where
+        u1_0.id=? 
+    order by
+        o1_0.order_date desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-02-11 00:27:33.226 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.is_active,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.phone,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name,
+        u1_0.updated_at,
+        u1_0.updated_by,
+        u1_0.username 
+    from
+        users u1_0 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        u1_0.id=?
+2026-02-11 00:27:33.233 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-11 00:27:33.236 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [ApiResponse(success=true, message=Orders retrieved successfully, data=Page 1 of 1 containing com.pro (truncated)...]
+2026-02-11 00:27:33.254 [http-nio-8080-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2026-02-11 00:28:13.837 [http-nio-8080-exec-10] DEBUG org.springframework.security.web.FilterChainProxy - Securing GET /api/auth/me
+2026-02-11 00:28:13.845 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.is_active,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.phone,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name,
+        u1_0.updated_at,
+        u1_0.updated_by,
+        u1_0.username 
+    from
+        users u1_0 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        u1_0.id=?
+2026-02-11 00:28:13.855 [http-nio-8080-exec-10] DEBUG c.p.u.security.JwtAuthenticationFilter - Set authentication for user: john_doe
+2026-02-11 00:28:13.857 [http-nio-8080-exec-10] DEBUG org.springframework.security.web.FilterChainProxy - Secured GET /api/auth/me
+2026-02-11 00:28:13.858 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/auth/me", parameters={}
+2026-02-11 00:28:13.864 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.project.usermanagement.controller.AuthController#getCurrentUser()
+2026-02-11 00:28:13.866 [http-nio-8080-exec-10] DEBUG c.project.usermanagement.controller.AuthController - Fetching current authenticated user
+2026-02-11 00:28:13.867 [http-nio-8080-exec-10] DEBUG com.project.usermanagement.service.AuthService - Fetching current user: john_doe
+2026-02-11 00:28:13.868 [http-nio-8080-exec-10] DEBUG com.project.usermanagement.service.UserService - Fetching user with ID: 1
+2026-02-11 00:28:13.870 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.created_by,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.is_active,
+        u1_0.last_name,
+        u1_0.password,
+        u1_0.phone,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name,
+        u1_0.updated_at,
+        u1_0.updated_by,
+        u1_0.username 
+    from
+        users u1_0 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        u1_0.id=?
+2026-02-11 00:28:13.884 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-11 00:28:13.885 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [ApiResponse(success=true, message=Current user retrieved successfully, data=UserResponse(id=1, usern (truncated)...]
+2026-02-11 00:28:13.888 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2026-02-11 00:36:11.454 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-02-11 00:36:11.467 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:36:11.492 [Thread-5] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:36:11.501 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-11 00:36:11.508 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-11 00:36:11.723 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Starting UserOrderManagementApplication using Java 21.0.10 with PID 12460 (C:\Users\PC\Downloads\v2\usermanagement\target\classes started by PC in C:\Users\PC\Downloads\v2\usermanagement)
+2026-02-11 00:36:11.723 [restartedMain] DEBUG c.p.usermanagement.UserOrderManagementApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-11 00:36:11.723 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 00:36:12.582 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 00:36:12.610 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2026-02-11 00:36:12.977 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 00:36:12.979 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:36:12.980 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 00:36:12.980 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-11 00:36:13.013 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-11 00:36:13.013 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1286 ms
+2026-02-11 00:36:13.285 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 00:36:13.293 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 00:36:13.306 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 00:36:13.309 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-02-11 00:36:13.376 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7c5ca55e
+2026-02-11 00:36:13.377 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-02-11 00:36:13.386 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-11 00:36:13.616 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 00:36:13.713 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:36:13.958 [restartedMain] DEBUG c.p.u.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-11 00:36:13.959 [restartedMain] DEBUG o.s.web.filter.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-02-11 00:36:14.344 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-11 00:36:14.562 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 30 mappings in 'requestMappingHandlerMapping'
+2026-02-11 00:36:14.741 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-02-11 00:36:14.876 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-02-11 00:36:14.981 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46bb261d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@288456d8, org.springframework.security.web.context.SecurityContextHolderFilter@5c1aa128, org.springframework.security.web.header.HeaderWriterFilter@6007df08, org.springframework.web.filter.CorsFilter@2e425187, org.springframework.security.web.authentication.logout.LogoutFilter@48f70785, com.project.usermanagement.security.JwtAuthenticationFilter@26ce412a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@474a991f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23598113, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5daa4a51, org.springframework.security.web.session.SessionManagementFilter@5635d04, org.springframework.security.web.access.ExceptionTranslationFilter@38b41a6e, org.springframework.security.web.access.intercept.AuthorizationFilter@2d58612b]
+2026-02-11 00:36:15.198 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-11 00:36:15.248 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-11 00:36:15.700 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-11 00:36:15.736 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:36:15.744 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-11 00:36:15.759 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Started UserOrderManagementApplication in 4.107 seconds (process running for 841.226)
+2026-02-11 00:36:15.762 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Initializing database with default roles...
+2026-02-11 00:36:15.817 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:36:15.820 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_USER already exists
+2026-02-11 00:36:15.824 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:36:15.827 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_ADMIN already exists
+2026-02-11 00:36:15.827 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Database initialization complete!
+2026-02-11 00:36:15.830 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-11 00:36:22.426 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2026-02-11 00:36:22.431 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:36:22.443 [Thread-7] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:36:22.447 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-02-11 00:36:22.463 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-02-11 00:36:22.656 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Starting UserOrderManagementApplication using Java 21.0.10 with PID 12460 (C:\Users\PC\Downloads\v2\usermanagement\target\classes started by PC in C:\Users\PC\Downloads\v2\usermanagement)
+2026-02-11 00:36:22.657 [restartedMain] DEBUG c.p.usermanagement.UserOrderManagementApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-11 00:36:22.657 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 00:36:23.255 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 00:36:23.284 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2026-02-11 00:36:23.922 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 00:36:23.927 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:36:23.928 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 00:36:23.929 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-11 00:36:23.979 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-11 00:36:23.985 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1320 ms
+2026-02-11 00:36:24.267 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 00:36:24.270 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 00:36:24.276 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 00:36:24.277 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-02-11 00:36:24.381 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@617b3136
+2026-02-11 00:36:24.381 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-02-11 00:36:24.397 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-11 00:36:24.570 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 00:36:24.655 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:36:25.071 [restartedMain] DEBUG c.p.u.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-11 00:36:25.072 [restartedMain] DEBUG o.s.web.filter.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-02-11 00:36:25.584 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-11 00:36:25.744 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 30 mappings in 'requestMappingHandlerMapping'
+2026-02-11 00:36:25.890 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-02-11 00:36:26.077 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-02-11 00:36:26.187 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7dfbd5c0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f773e4b, org.springframework.security.web.context.SecurityContextHolderFilter@3837897b, org.springframework.security.web.header.HeaderWriterFilter@e6e889, org.springframework.web.filter.CorsFilter@7c9ccf51, org.springframework.security.web.authentication.logout.LogoutFilter@11e4dd4, com.project.usermanagement.security.JwtAuthenticationFilter@179a9446, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13af4630, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4da81237, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@487e1c54, org.springframework.security.web.session.SessionManagementFilter@5c7c9d66, org.springframework.security.web.access.ExceptionTranslationFilter@772766f5, org.springframework.security.web.access.intercept.AuthorizationFilter@6bf93afe]
+2026-02-11 00:36:26.469 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-11 00:36:26.504 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-11 00:36:26.895 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-11 00:36:26.925 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:36:26.928 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-11 00:36:26.939 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Started UserOrderManagementApplication in 4.339 seconds (process running for 852.406)
+2026-02-11 00:36:26.941 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Initializing database with default roles...
+2026-02-11 00:36:26.991 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:36:26.997 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_USER already exists
+2026-02-11 00:36:26.999 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:36:27.003 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_ADMIN already exists
+2026-02-11 00:36:27.003 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Database initialization complete!
+2026-02-11 00:36:27.005 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-11 00:37:32.971 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-02-11 00:37:32.974 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:37:32.984 [Thread-11] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:37:32.986 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-02-11 00:37:33.004 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-02-11 00:37:33.138 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Starting UserOrderManagementApplication using Java 21.0.10 with PID 12460 (C:\Users\PC\Downloads\v2\usermanagement\target\classes started by PC in C:\Users\PC\Downloads\v2\usermanagement)
+2026-02-11 00:37:33.139 [restartedMain] DEBUG c.p.usermanagement.UserOrderManagementApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-11 00:37:33.140 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 00:37:34.106 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 00:37:34.136 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2026-02-11 00:37:34.482 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 00:37:34.487 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:37:34.488 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 00:37:34.488 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-11 00:37:34.521 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-11 00:37:34.522 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1378 ms
+2026-02-11 00:37:34.793 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 00:37:34.797 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 00:37:34.804 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 00:37:34.806 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-02-11 00:37:34.861 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@77632c1c
+2026-02-11 00:37:34.862 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-02-11 00:37:34.872 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-11 00:37:35.096 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 00:37:35.188 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:37:35.604 [restartedMain] DEBUG c.p.u.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-11 00:37:35.605 [restartedMain] DEBUG o.s.web.filter.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-02-11 00:37:36.101 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-11 00:37:36.221 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 30 mappings in 'requestMappingHandlerMapping'
+2026-02-11 00:37:36.364 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-02-11 00:37:36.513 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-02-11 00:37:36.633 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2cc23061, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@343960ed, org.springframework.security.web.context.SecurityContextHolderFilter@7805b87f, org.springframework.security.web.header.HeaderWriterFilter@32af0c4, org.springframework.web.filter.CorsFilter@42d22fb2, org.springframework.security.web.authentication.logout.LogoutFilter@57386d46, com.project.usermanagement.security.JwtAuthenticationFilter@5d1f6d2e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bd301a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@580985a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@158c921d, org.springframework.security.web.session.SessionManagementFilter@f9c223f, org.springframework.security.web.access.ExceptionTranslationFilter@1808290f, org.springframework.security.web.access.intercept.AuthorizationFilter@9522622]
+2026-02-11 00:37:36.783 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-11 00:37:36.815 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-11 00:37:37.190 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-11 00:37:37.223 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:37:37.228 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-11 00:37:37.240 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Started UserOrderManagementApplication in 4.15 seconds (process running for 922.707)
+2026-02-11 00:37:37.243 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Initializing database with default roles...
+2026-02-11 00:37:37.295 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:37:37.298 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_USER already exists
+2026-02-11 00:37:37.300 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:37:37.304 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_ADMIN already exists
+2026-02-11 00:37:37.304 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Database initialization complete!
+2026-02-11 00:37:37.305 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-11 00:37:53.815 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-02-11 00:37:53.821 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:37:53.844 [Thread-15] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:37:53.847 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-02-11 00:37:53.862 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-02-11 00:37:54.317 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Starting UserOrderManagementApplication using Java 21.0.10 with PID 12460 (C:\Users\PC\Downloads\v2\usermanagement\target\classes started by PC in C:\Users\PC\Downloads\v2\usermanagement)
+2026-02-11 00:37:54.318 [restartedMain] DEBUG c.p.usermanagement.UserOrderManagementApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-11 00:37:54.324 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 00:37:54.974 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 00:37:54.995 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2026-02-11 00:37:55.311 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 00:37:55.313 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:37:55.313 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 00:37:55.314 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-11 00:37:55.343 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-11 00:37:55.345 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1018 ms
+2026-02-11 00:37:55.596 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 00:37:55.600 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 00:37:55.610 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 00:37:55.611 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-02-11 00:37:55.659 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@67543eb0
+2026-02-11 00:37:55.660 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-02-11 00:37:55.667 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-11 00:37:55.801 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 00:37:55.905 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:37:56.496 [restartedMain] DEBUG c.p.u.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-11 00:37:56.496 [restartedMain] DEBUG o.s.web.filter.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-02-11 00:37:56.952 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-11 00:37:57.101 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-11 00:37:57.287 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-02-11 00:37:57.436 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-02-11 00:37:57.531 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f2d7089, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cfc282a, org.springframework.security.web.context.SecurityContextHolderFilter@55056bd3, org.springframework.security.web.header.HeaderWriterFilter@7afea411, org.springframework.web.filter.CorsFilter@318f5366, org.springframework.security.web.authentication.logout.LogoutFilter@3eeaaa7, com.project.usermanagement.security.JwtAuthenticationFilter@236836aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@487868cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fdbd071, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26637d3a, org.springframework.security.web.session.SessionManagementFilter@36af678d, org.springframework.security.web.access.ExceptionTranslationFilter@5966305f, org.springframework.security.web.access.intercept.AuthorizationFilter@68d9756b]
+2026-02-11 00:37:57.687 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-11 00:37:57.783 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-11 00:37:58.422 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-11 00:37:58.494 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:37:58.501 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-11 00:37:58.518 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Started UserOrderManagementApplication in 4.294 seconds (process running for 943.984)
+2026-02-11 00:37:58.520 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Initializing database with default roles...
+2026-02-11 00:37:58.564 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:37:58.570 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_USER already exists
+2026-02-11 00:37:58.573 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:37:58.578 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_ADMIN already exists
+2026-02-11 00:37:58.579 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Database initialization complete!
+2026-02-11 00:37:58.581 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-11 00:37:59.923 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (1 addition, 0 deletions, 3 modifications)
+2026-02-11 00:37:59.932 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:37:59.938 [Thread-19] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:37:59.940 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-02-11 00:37:59.953 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-02-11 00:38:00.187 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Starting UserOrderManagementApplication using Java 21.0.10 with PID 12460 (C:\Users\PC\Downloads\v2\usermanagement\target\classes started by PC in C:\Users\PC\Downloads\v2\usermanagement)
+2026-02-11 00:38:00.188 [restartedMain] DEBUG c.p.usermanagement.UserOrderManagementApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-11 00:38:00.199 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 00:38:00.841 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 00:38:00.866 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+2026-02-11 00:38:01.207 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 00:38:01.210 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:38:01.211 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 00:38:01.211 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-11 00:38:01.241 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-11 00:38:01.242 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1040 ms
+2026-02-11 00:38:01.479 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 00:38:01.483 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 00:38:01.490 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 00:38:01.492 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2026-02-11 00:38:01.551 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@400cd922
+2026-02-11 00:38:01.551 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2026-02-11 00:38:01.560 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-11 00:38:01.671 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 00:38:01.740 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:38:02.014 [restartedMain] DEBUG c.p.u.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-11 00:38:02.014 [restartedMain] DEBUG o.s.web.filter.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-02-11 00:38:02.431 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-11 00:38:02.580 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-11 00:38:02.736 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-02-11 00:38:02.903 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-02-11 00:38:03.020 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@513a80e8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@784deb1a, org.springframework.security.web.context.SecurityContextHolderFilter@440a8bc9, org.springframework.security.web.header.HeaderWriterFilter@4aaa66c4, org.springframework.web.filter.CorsFilter@3925d519, org.springframework.security.web.authentication.logout.LogoutFilter@1cd3a5f7, com.project.usermanagement.security.JwtAuthenticationFilter@18f78cc7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@dfa3c1b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c0ab53e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e94d4c7, org.springframework.security.web.session.SessionManagementFilter@3a8b23ae, org.springframework.security.web.access.ExceptionTranslationFilter@2e6c9df0, org.springframework.security.web.access.intercept.AuthorizationFilter@2257f7a]
+2026-02-11 00:38:03.196 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-11 00:38:03.233 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-11 00:38:03.699 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-11 00:38:03.726 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:38:03.730 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-11 00:38:03.739 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Started UserOrderManagementApplication in 3.653 seconds (process running for 949.206)
+2026-02-11 00:38:03.740 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Initializing database with default roles...
+2026-02-11 00:38:03.778 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:38:03.782 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_USER already exists
+2026-02-11 00:38:03.783 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:38:03.786 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_ADMIN already exists
+2026-02-11 00:38:03.786 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Database initialization complete!
+2026-02-11 00:38:03.787 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-11 00:38:32.580 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-02-11 00:38:32.582 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:38:32.588 [Thread-23] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:38:32.589 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2026-02-11 00:38:32.601 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2026-02-11 00:38:32.755 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Starting UserOrderManagementApplication using Java 21.0.10 with PID 12460 (C:\Users\PC\Downloads\v2\usermanagement\target\classes started by PC in C:\Users\PC\Downloads\v2\usermanagement)
+2026-02-11 00:38:32.756 [restartedMain] DEBUG c.p.usermanagement.UserOrderManagementApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-11 00:38:32.756 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 00:38:33.393 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 00:38:33.424 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2026-02-11 00:38:33.842 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-11 00:38:33.844 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:38:33.844 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-11 00:38:33.844 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-02-11 00:38:33.871 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-11 00:38:33.872 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1113 ms
+2026-02-11 00:38:34.223 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 00:38:34.231 [restartedMain] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 00:38:34.246 [restartedMain] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 00:38:34.249 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2026-02-11 00:38:34.307 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@6e18a77a
+2026-02-11 00:38:34.308 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2026-02-11 00:38:34.317 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-11 00:38:34.440 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 00:38:34.519 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:38:34.831 [restartedMain] DEBUG c.p.u.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-11 00:38:34.832 [restartedMain] DEBUG o.s.web.filter.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-02-11 00:38:35.358 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-11 00:38:35.836 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 32 mappings in 'requestMappingHandlerMapping'
+2026-02-11 00:38:36.348 [restartedMain] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-02-11 00:38:36.623 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2026-02-11 00:38:36.767 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@663c4dac, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a2df4ab, org.springframework.security.web.context.SecurityContextHolderFilter@4d49cc3d, org.springframework.security.web.header.HeaderWriterFilter@4f2aec0, org.springframework.web.filter.CorsFilter@611210f2, org.springframework.security.web.authentication.logout.LogoutFilter@506b5f48, com.project.usermanagement.security.JwtAuthenticationFilter@e061683, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@484e6d03, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5637c267, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4251831a, org.springframework.security.web.session.SessionManagementFilter@5ce01612, org.springframework.security.web.access.ExceptionTranslationFilter@53ba7ab3, org.springframework.security.web.access.intercept.AuthorizationFilter@4b4af8f8]
+2026-02-11 00:38:37.144 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-11 00:38:37.181 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-11 00:38:38.313 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-11 00:38:38.494 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:38:38.578 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-02-11 00:38:38.661 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Started UserOrderManagementApplication in 5.955 seconds (process running for 984.128)
+2026-02-11 00:38:38.776 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Initializing database with default roles...
+2026-02-11 00:38:39.111 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:38:39.258 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_USER already exists
+2026-02-11 00:38:39.355 [restartedMain] DEBUG org.hibernate.SQL - 
+    select
+        r1_0.id 
+    from
+        roles r1_0 
+    where
+        r1_0.name=? 
+    fetch
+        first ? rows only
+2026-02-11 00:38:39.484 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - ROLE_ADMIN already exists
+2026-02-11 00:38:39.523 [restartedMain] INFO  com.project.usermanagement.config.DataInitializer - Database initialization complete!
+2026-02-11 00:38:39.546 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-11 00:39:02.096 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-02-11 00:39:02.099 [Thread-27] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-02-11 00:39:02.107 [Thread-27] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 00:39:02.112 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2026-02-11 00:39:02.126 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2026-02-11 00:39:02.279 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - Starting UserOrderManagementApplication using Java 21.0.10 with PID 12460 (C:\Users\PC\Downloads\v2\usermanagement\target\classes started by PC in C:\Users\PC\Downloads\v2\usermanagement)
+2026-02-11 00:39:02.279 [restartedMain] DEBUG c.p.usermanagement.UserOrderManagementApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+2026-02-11 00:39:02.280 [restartedMain] INFO  c.p.usermanagement.UserOrderManagementApplication - No active profile set, falling back to 1 default profile: "default"
